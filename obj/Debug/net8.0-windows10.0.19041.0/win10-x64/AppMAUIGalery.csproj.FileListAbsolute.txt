@@ -177,3 +177,4 @@ C:\Users\Zaccaro\source\repos\ProjetosMAUI\AppMAUIGalery\obj\Debug\net8.0-window
 C:\Users\Zaccaro\source\repos\ProjetosMAUI\AppMAUIGalery\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 C:\Users\Zaccaro\source\repos\ProjetosMAUI\AppMAUIGalery\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\poweroff.scale-100.png
 C:\Users\Zaccaro\source\repos\ProjetosMAUI\AppMAUIGalery\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\poweron.scale-100.png
+C:\Users\Zaccaro\source\repos\ProjetosMAUI\AppMAUIGalery\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\AppMAUIGalery.sourcelink.json

@@ -13,6 +13,9 @@
     <MauiXaml Update="AppFlyout.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\Components\Forms\EntryPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\Components\Mains\BoxViewPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -26,6 +29,15 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\Components\Mains\LabelPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\Components\Visuals\BorderPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\Components\Visuals\FramePage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\Components\Visuals\ShadowPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\Layouts\AbsoluteLayoutPage.xaml">

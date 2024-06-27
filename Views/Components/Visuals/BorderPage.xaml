@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMAUIGalery.Views.Components.Visuals.BorderPage"
+             Title="BorderPage">
+    <VerticalStackLayout Padding="10">
+        <Border 
+            Padding="20" 
+            Stroke="OrangeRed"
+            
+            StrokeThickness="10"
+            
+            StrokeLineJoin="Round"
+            StrokeLineCap="Square"
+            
+            StrokeDashArray="1,1,3,1,1,2"
+            
+            StrokeDashOffset="9"
+            
+            >
+            <Label 
+                Text="Isso é um 'Border'! Dá para fazer coisas estranhas com ele"
+                VerticalOptions="Center" 
+                HorizontalTextAlignment="Center"
+                HorizontalOptions="Center" />
+        </Border>
+        
+        <Border 
+            Margin="0, 50"
+            Padding="20" 
+            Stroke="Blue">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="5, 20, 30, 50"/>                    
+            </Border.StrokeShape>
+            <Label 
+                Text="Mais um Border! Note que eles possuem caracteristicas diferentes para um mesmo componente."
+                VerticalOptions="Center" 
+                HorizontalTextAlignment="Center"
+                HorizontalOptions="Center" />
+        </Border>
+
+        <Border 
+            Padding="20" 
+            Stroke="Green"
+            StrokeThickness="5"
+            StrokeShape="Ellipse">
+            <Label 
+                Text="Outra Border com propriedade StrokeShape = Ellipse."
+                VerticalOptions="Center" 
+                HorizontalTextAlignment="Center"
+                HorizontalOptions="Center" />
+        </Border>
+    </VerticalStackLayout>
+</ContentPage>

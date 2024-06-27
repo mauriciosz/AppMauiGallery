@@ -1,5 +1,7 @@
 ﻿using AppMAUIGalery.Models;
+using AppMAUIGalery.Views.Components.Forms;
 using AppMAUIGalery.Views.Components.Mains;
+using AppMAUIGalery.Views.Components.Visuals;
 using AppMAUIGalery.Views.Layouts;
 using System;
 using System.Collections.Generic;
@@ -75,6 +77,42 @@ namespace AppMAUIGalery.Repositories
                     }
                 }
             });
+
+            categories.Add(new Category
+            {
+                Name = "Visuais",
+                Components = new List<Component> {
+                    new Component {
+                        Title = "Frame",
+                        Description = "Caixa que envolve outros elementos.",
+                        Page = typeof(FramePage)
+                    },
+
+                    new Component {
+                        Title = "Border",
+                        Description = "Caixa que envolve outros elementos. Semelhante ao Frame, mas melhor!",
+                        Page = typeof(BorderPage)
+                    },
+                    new Component {
+                        Title = "Shadow",
+                        Description = "Adiciona uma sombra ao elemento (component).",
+                        Page = typeof(ShadowPage)
+                    }
+                }
+            });
+
+            categories.Add(new Category
+            {
+                Name = "Formulários",
+                Components = new List<Component> {
+                    new Component {
+                        Title = "Entry",
+                        Description = "Cria uma Caixa para entrada de texto.",
+                        Page = typeof(EntryPage)
+                    }
+                }
+            });
+
             return categories;
         }
     }

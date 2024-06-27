@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMAUIGalery.Views.Components.Visuals.ShadowPage"
+             Title="ShadowPage">
+    <VerticalStackLayout Padding="20" >
+        <Border Padding="10" Background="White" Margin="0, 30, 0, 0">
+            <Border.Shadow>
+                <Shadow Radius="10" Brush="DarkRed" Opacity="1" Offset="10, 10"/>
+            </Border.Shadow>
+            <VerticalStackLayout>
+                <Label 
+                    Text="Shadow para baixo"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Center" />
+            </VerticalStackLayout>
+        </Border>
+
+        <Border Padding="10" Background="White" Margin="0, 70, 0, 0">
+            <Border.Shadow>
+                <Shadow Radius="10" Brush="YellowGreen" Opacity="1" Offset="-10, -10"/>
+            </Border.Shadow>
+            <VerticalStackLayout>
+                <Label 
+                    Text="Shadow para cima"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Center" />
+            </VerticalStackLayout>
+        </Border>
+
+        <Border Padding="10" Background="White" Margin="0, 70, 0, 0">
+            <Border.Shadow>
+                <Shadow Radius="50" Brush="BlueViolet" Opacity="0.5" />
+            </Border.Shadow>
+            <VerticalStackLayout>
+                <Label 
+                    Text="Shadow espalhado com opacidade reduzida"
+                    VerticalOptions="Center" 
+                    HorizontalTextAlignment="Center"
+                    HorizontalOptions="Center" />
+            </VerticalStackLayout>
+        </Border>
+
+        <Border Padding="10" Background="White" Margin="0, 70, 0, 0">
+            <Border.Shadow>
+                <Shadow Radius="50" Brush="Black" Opacity="1" />
+            </Border.Shadow>
+            <VerticalStackLayout>
+                <Label 
+                    Text="Shadow no texto!!!"
+                    VerticalOptions="Center" 
+                    HorizontalTextAlignment="Center"
+                    HorizontalOptions="Center" 
+                    >
+                    <Label.Shadow>
+                        <Shadow Brush="Green" Radius="9" Opacity="1" />
+                    </Label.Shadow>
+                </Label>
+            </VerticalStackLayout>
+        </Border>
+    </VerticalStackLayout>
+</ContentPage>
